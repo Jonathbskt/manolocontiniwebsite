@@ -1,7 +1,6 @@
 
-
-
-
+document.addEventListener("DOMContentLoaded", function(event) {
+ 
 var splide = new Splide( '.box-me-splide', {
   type   : 'slide',
   perMove: 1,
@@ -75,3 +74,5 @@ var splide = new Splide( '.box-cards-splide', {
 } );
 
 splide.mount()
+});
+
