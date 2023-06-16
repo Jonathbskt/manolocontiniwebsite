@@ -8,6 +8,8 @@ var splide = new Splide( '.box-me-splide', {
   perPage: 1,
   arrows:true,
   rewind : true,
+  pauseOnFocus:true,
+  pauseOnHover:true,
   breakpoints: {
         992: {
       autoplay:true,
@@ -30,6 +32,8 @@ var splide = new Splide( '.box-my-fight', {
   perPage: 3,
   arrows:true,
   rewind : true,
+  pauseOnFocus:true,
+  pauseOnHover:true,
   breakpoints: {
 		992: {
       autoplay:true,
@@ -55,6 +59,8 @@ var splide = new Splide( '.box-cards-splide', {
   perPage: 3,
   arrows:false,
   rewind : true,
+  pauseOnFocus:true,
+  pauseOnHover:true,
   breakpoints: {
         640: {
       autoplay:true,
